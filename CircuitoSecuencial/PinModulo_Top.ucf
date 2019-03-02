@@ -1,0 +1,27 @@
+NET "a_g<0>"		LOC="L18";
+NET "a_g<1>"		LOC="F18";
+NET "a_g<2>"		LOC="D17";
+NET "a_g<3>"		LOC="D16";
+NET "a_g<4>"		LOC="G14";
+NET "a_g<5>"		LOC="J17";
+NET "a_g<6>"		LOC="H14";
+
+NET "clr"	LOC="B18";
+NET "mclk"	LOC="B8";
+
+NET "x<0>"		LOC="L14";
+NET "x<1>"		LOC="L13";
+NET "x<2>"		LOC="N17";
+NET "x<3>"		LOC="R17";
+NET "x<4>"		LOC="G18";
+NET "x<5>"		LOC="H18";
+NET "x<6>"		LOC="K18";
+NET "x<7>"		LOC="K17";
+NET "x<8>"		LOC="D18";
+NET "x<9>"		LOC="E18";
+NET "x<10>"		LOC="H13"; 
+
+NET "anodo<3>"	LOC="F17";
+NET "anodo<2>"	LOC="H17";
+NET "anodo<1>"	LOC="C18";
+NET "anodo<0>"	LOC="F15";

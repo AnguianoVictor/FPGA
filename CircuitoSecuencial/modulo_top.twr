@@ -1,0 +1,168 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml modulo_top.twx modulo_top.ncd -o modulo_top.twr
+modulo_top.pcf -ucf PinModulo_Top.ucf
+
+Design file:              modulo_top.ncd
+Physical constraint file: modulo_top.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock mclk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+a_g<0>      |   12.980(R)|mclk_BUFGP        |   0.000|
+a_g<1>      |   13.255(R)|mclk_BUFGP        |   0.000|
+a_g<2>      |   14.327(R)|mclk_BUFGP        |   0.000|
+a_g<3>      |   14.056(R)|mclk_BUFGP        |   0.000|
+a_g<4>      |   13.333(R)|mclk_BUFGP        |   0.000|
+a_g<5>      |   13.054(R)|mclk_BUFGP        |   0.000|
+a_g<6>      |   13.068(R)|mclk_BUFGP        |   0.000|
+anodo<0>    |    9.638(R)|mclk_BUFGP        |   0.000|
+anodo<1>    |   10.523(R)|mclk_BUFGP        |   0.000|
+anodo<2>    |   10.262(R)|mclk_BUFGP        |   0.000|
+anodo<3>    |    9.891(R)|mclk_BUFGP        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock mclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |    4.063|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+clr            |a_g<0>         |   10.675|
+clr            |a_g<1>         |   11.002|
+clr            |a_g<2>         |   12.074|
+clr            |a_g<3>         |   11.803|
+clr            |a_g<4>         |   11.077|
+clr            |a_g<5>         |   10.796|
+clr            |a_g<6>         |   10.815|
+clr            |anodo<0>       |    7.469|
+clr            |anodo<1>       |    7.494|
+clr            |anodo<2>       |    7.899|
+clr            |anodo<3>       |    6.867|
+x<0>           |a_g<0>         |    9.502|
+x<0>           |a_g<1>         |    9.706|
+x<0>           |a_g<5>         |    9.207|
+x<0>           |a_g<6>         |    9.018|
+x<1>           |a_g<0>         |    9.798|
+x<1>           |a_g<1>         |   10.029|
+x<1>           |a_g<2>         |   10.267|
+x<1>           |a_g<3>         |    9.931|
+x<1>           |a_g<4>         |    9.610|
+x<1>           |a_g<5>         |    9.326|
+x<1>           |a_g<6>         |    9.008|
+x<2>           |a_g<0>         |    9.708|
+x<2>           |a_g<1>         |   10.035|
+x<2>           |a_g<2>         |   11.107|
+x<2>           |a_g<3>         |   10.836|
+x<2>           |a_g<4>         |   10.110|
+x<2>           |a_g<5>         |    9.766|
+x<2>           |a_g<6>         |    9.848|
+x<3>           |a_g<0>         |   10.177|
+x<3>           |a_g<1>         |   10.202|
+x<3>           |a_g<2>         |   10.721|
+x<3>           |a_g<3>         |   10.392|
+x<3>           |a_g<4>         |   10.587|
+x<3>           |a_g<5>         |   10.308|
+x<3>           |a_g<6>         |    9.462|
+x<4>           |a_g<0>         |    8.372|
+x<4>           |a_g<1>         |    8.576|
+x<4>           |a_g<5>         |    8.077|
+x<4>           |a_g<6>         |    7.888|
+x<5>           |a_g<0>         |    8.734|
+x<5>           |a_g<1>         |    8.965|
+x<5>           |a_g<2>         |    9.203|
+x<5>           |a_g<3>         |    8.867|
+x<5>           |a_g<4>         |    8.546|
+x<5>           |a_g<5>         |    8.262|
+x<5>           |a_g<6>         |    7.944|
+x<6>           |a_g<0>         |    9.096|
+x<6>           |a_g<1>         |    9.423|
+x<6>           |a_g<2>         |   10.495|
+x<6>           |a_g<3>         |   10.224|
+x<6>           |a_g<4>         |    9.498|
+x<6>           |a_g<5>         |    9.154|
+x<6>           |a_g<6>         |    9.236|
+x<7>           |a_g<0>         |    9.294|
+x<7>           |a_g<1>         |    9.319|
+x<7>           |a_g<2>         |    9.838|
+x<7>           |a_g<3>         |    9.509|
+x<7>           |a_g<4>         |    9.704|
+x<7>           |a_g<5>         |    9.425|
+x<7>           |a_g<6>         |    8.579|
+x<8>           |a_g<0>         |   10.073|
+x<8>           |a_g<1>         |   10.304|
+x<8>           |a_g<2>         |   10.542|
+x<8>           |a_g<3>         |   10.206|
+x<8>           |a_g<4>         |    9.885|
+x<8>           |a_g<5>         |    9.601|
+x<8>           |a_g<6>         |    9.283|
+x<9>           |a_g<0>         |    9.504|
+x<9>           |a_g<1>         |    9.831|
+x<9>           |a_g<2>         |   10.903|
+x<9>           |a_g<3>         |   10.632|
+x<9>           |a_g<4>         |    9.906|
+x<9>           |a_g<5>         |    9.562|
+x<9>           |a_g<6>         |    9.644|
+x<10>          |a_g<0>         |    9.227|
+x<10>          |a_g<1>         |    9.252|
+x<10>          |a_g<2>         |    9.771|
+x<10>          |a_g<3>         |    9.442|
+x<10>          |a_g<4>         |    9.637|
+x<10>          |a_g<5>         |    9.358|
+x<10>          |a_g<6>         |    8.512|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Mar 02 01:40:20 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4507 MB
+
+
+

@@ -1,0 +1,12 @@
+EN hex7seg NULL C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/hex7seg.vhd sub00/vhpl02 1551512372
+EN selector_an NULL C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/selector_an.vhd sub00/vhpl06 1551512376
+AR modulo_top arch C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/modulo_top.vhd sub00/vhpl09 1551512379
+AR selector_an arch C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/selector_an.vhd sub00/vhpl07 1551512377
+AR contador arch C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/contador.vhd sub00/vhpl01 1551512371
+AR hex7seg arch C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/hex7seg.vhd sub00/vhpl03 1551512373
+EN mux4x1 NULL C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/mux4x1.vhd sub00/vhpl04 1551512374
+EN experimento1 NULL C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.vhd sub00/vhpl10 1551505172
+AR experimento1 arch C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.vhd sub00/vhpl11 1551505173
+EN modulo_top NULL C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/modulo_top.vhd sub00/vhpl08 1551512378
+EN contador NULL C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/contador.vhd sub00/vhpl00 1551512370
+AR mux4x1 arch C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/mux4x1.vhd sub00/vhpl05 1551512375

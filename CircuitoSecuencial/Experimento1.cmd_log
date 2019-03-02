@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.xst" -ofn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.syr" 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.xst" -ofn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.syr" 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.xst" -ofn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.syr" 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.xst" -ofn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.syr" 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.xst" -ofn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.syr" 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.xst" -ofn "C:/Users/Propietario/Desktop/DLP/CircuitoSecuencial/Experimento1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinOut.ucf -p xc3s500e-fg320-4 Experimento1.ngc Experimento1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Experimento1_map.ncd Experimento1.ngd Experimento1.pcf 
+par -w -intstyle ise -ol high -t 1 Experimento1_map.ncd Experimento1.ncd Experimento1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Experimento1.twx Experimento1.ncd -o Experimento1.twr Experimento1.pcf -ucf PinOut.ucf 
+bitgen -intstyle ise -f Experimento1.ut Experimento1.ncd 
