@@ -1,0 +1,29 @@
+V3 15
+FL C:/Users/Propietario/Desktop/DLP/Practica3/clock.vhd 2019/03/21.19:51:34 P.20131013
+EN work/clock 1553219980 FL C:/Users/Propietario/Desktop/DLP/Practica3/clock.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/clock/arq 1553219981 \
+      FL C:/Users/Propietario/Desktop/DLP/Practica3/clock.vhd EN work/clock 1553219980
+FL C:/Users/Propietario/Desktop/DLP/Practica3/contador.vhd 2019/03/21.19:54:28 P.20131013
+EN work/contador 1553219984 \
+      FL C:/Users/Propietario/Desktop/DLP/Practica3/contador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/contador/arq 1553219985 \
+      FL C:/Users/Propietario/Desktop/DLP/Practica3/contador.vhd EN work/contador 1553219984
+FL C:/Users/Propietario/Desktop/DLP/Practica3/semaforo.vhd 2019/03/21.19:53:53 P.20131013
+EN work/semaforo 1553219982 \
+      FL C:/Users/Propietario/Desktop/DLP/Practica3/semaforo.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/semaforo/arq 1553219983 \
+      FL C:/Users/Propietario/Desktop/DLP/Practica3/semaforo.vhd EN work/semaforo 1553219982
+FL C:/Users/Propietario/Desktop/DLP/Practica3/top_module.vhd 2019/03/21.19:59:35 P.20131013
+EN work/top_module 1553219986 \
+      FL C:/Users/Propietario/Desktop/DLP/Practica3/top_module.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/top_module/arq 1553219987 \
+      FL C:/Users/Propietario/Desktop/DLP/Practica3/top_module.vhd \
+      EN work/top_module 1553219986 CP clock CP semaforo CP contador

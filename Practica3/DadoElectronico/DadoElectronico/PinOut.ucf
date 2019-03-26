@@ -1,0 +1,16 @@
+
+NET "clk"			LOC="B8";
+NET "rst"			LOC="B18";
+NET "btn"			LOC="G18";
+NET "display<0>"	LOC="H14";
+NET "display<1>"	LOC="J17";
+NET "display<2>"	LOC="G14";
+NET "display<3>"	LOC="D16";
+NET "display<4>"	LOC="D17";
+NET "display<5>"	LOC="F18";
+NET "display<6>"	LOC="L18";
+
+NET "control<0>"	LOC="F17";
+NET "control<1>"	LOC="H17";
+NET "control<2>"	LOC="C18";
+NET "control<3>"	LOC="F15";

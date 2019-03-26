@@ -1,0 +1,49 @@
+#Fisico
+
+NET "semaforoC<0>" LOC = "M13";
+NET "semaforoC<1>" LOC = "R18";
+NET "semaforoC<2>" LOC = "R15";
+
+NET "semaforoR<0>" LOC = "P17";
+NET "semaforoR<1>" LOC = "R16";
+NET "semaforoR<2>" LOC = "T18";
+
+NET "sensor" LOC = "T17";
+
+#Nexys2
+#NET "semaforoC<0>" LOC = "R4";
+#NET "semaforoC<1>" LOC = "F4";
+#NET "semaforoC<2>" LOC = "P15";
+#
+#NET "semaforoR<0>" LOC = "K15";
+#NET "semaforoR<1>" LOC = "J15";
+#NET "semaforoR<2>" LOC = "J14";
+#
+#NET "sensor" LOC = "G18";
+#
+#NET "x<0>"		LOC="J14";
+#NET "x<1>"		LOC="J15";
+#NET "x<2>"		LOC="K15";
+#NET "x<3>"		LOC="K14";
+#NET "x<4>"		LOC="E17";
+#NET "x<5>"		LOC="P15";
+#NET "x<6>"		LOC="F4";
+#NET "x<7>"		LOC="R4";
+
+#########################################################################
+NET "rst" LOC = "B18";
+
+NET "mclk" LOC = "B8";
+
+NET "anodo<3>"		LOC = "F15";
+NET "anodo<2>"		LOC = "C18";
+NET "anodo<1>"		LOC = "F17";
+NET "anodo<0>"		LOC = "H17";
+
+NET "display<6>"	LOC="L18";
+NET "display<5>"	LOC="F18";
+NET "display<4>"	LOC="D17";
+NET "display<3>"	LOC="D16";
+NET "display<2>"	LOC="G14";
+NET "display<1>"	LOC="J17";
+NET "display<0>"	LOC="H14";

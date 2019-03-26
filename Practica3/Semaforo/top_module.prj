@@ -1,0 +1,4 @@
+vhdl work "semaforo.vhd"
+vhdl work "contador.vhd"
+vhdl work "clock.vhd"
+vhdl work "top_module.vhd"
