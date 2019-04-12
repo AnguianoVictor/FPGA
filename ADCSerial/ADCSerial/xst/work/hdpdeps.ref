@@ -1,0 +1,33 @@
+V3 15
+FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/ADC.vhd 2019/04/12.00:01:44 P.20131013
+EN work/ADC 1555045315 \
+      FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/ADC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/ADC/arch 1555045316 \
+      FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/ADC.vhd EN work/ADC 1555045315 \
+      CP Contador CP Divisor CP Lectura
+FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Contador.vhd 2019/04/11.23:53:02 P.20131013
+EN work/Contador 1555045309 \
+      FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Contador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/Contador/arch 1555045310 \
+      FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Contador.vhd \
+      EN work/Contador 1555045309
+FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Divisor.vhd 2019/04/11.23:51:26 P.20131013
+EN work/Divisor 1555045311 \
+      FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Divisor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/Divisor/arch 1555045312 \
+      FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Divisor.vhd \
+      EN work/Divisor 1555045311
+FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Lectura.vhd 2019/04/11.23:47:38 P.20131013
+EN work/Lectura 1555045313 \
+      FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Lectura.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/Lectura/arch 1555045314 \
+      FL C:/Users/Propietario/Desktop/DLP/ADCSerial/ADCSerial/Lectura.vhd \
+      EN work/Lectura 1555045313

@@ -1,0 +1,4 @@
+vhdl work "Lectura.vhd"
+vhdl work "Divisor.vhd"
+vhdl work "Contador.vhd"
+vhdl work "ADC.vhd"
